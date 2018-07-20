@@ -27,11 +27,11 @@ public class MyArrayList<T> extends AbstractList {
     }
 
     @Override
-    public int size() {
+    public int size() { // Todo переделать чтобы возвращал размер без null элементов
         return array.length;
     }
 
-    public String showAll() {
+    public String showAll() { // Todo переделать
         return Arrays.toString(array);
     }
 }
